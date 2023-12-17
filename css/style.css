@@ -16,7 +16,7 @@ header, footer, .nav_menu, main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-align: center;
+    align-items: center;
 
     .header_div{
         background-color:red;
@@ -46,13 +46,12 @@ header, footer, .nav_menu, main{
         width: 100%;
 
         .main-section-article{
-
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            gap: 5%;
             width: 45%;
-            padding: 20px;
-            border: 1px solid black;
+            padding:5%;
 
             .section_article_header{
                 background-color: brown;
@@ -65,9 +64,9 @@ header, footer, .nav_menu, main{
             .section_article_footer{
                 background-color: black;
                 color: white;
-            }
+            };
+        } ;
+    };
+};
 
-        } 
-    }
-}
 
