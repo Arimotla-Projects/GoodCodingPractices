@@ -16,7 +16,7 @@ header, footer, .nav_menu, main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-align: center;
+    align-items: center;
 
     .header_div{
         background-color:red;
